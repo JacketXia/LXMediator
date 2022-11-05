@@ -1,0 +1,28 @@
+PODS:
+  - CTMediator (46)
+  - LXMediator (0.0.1):
+    - LXMediator/Router (= 0.0.1)
+    - LXMediator/Service (= 0.0.1)
+  - LXMediator/Router (0.0.1):
+    - CTMediator (~> 46)
+  - LXMediator/Service (0.0.1):
+    - CTMediator (~> 46)
+
+DEPENDENCIES:
+  - LXMediator (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CTMediator
+
+EXTERNAL SOURCES:
+  LXMediator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: f1cf58d509fb3192086c367711f039efd769b907
+  LXMediator: 1f328f46eaab685e10126ab7cdce439812e52cb2
+
+PODFILE CHECKSUM: a13a3e6a992c0274d1cba61a4804678e43fcbab9
+
+COCOAPODS: 1.11.3

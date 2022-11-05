@@ -1,0 +1,43 @@
+{
+  "name": "LXMediator",
+  "version": "0.0.1",
+  "summary": "A Component Mediator With Person",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jacketxia/LXMediator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiawenbin": "xiaxiaxiawb@163.com"
+  },
+  "source": {
+    "git": "https://github.com/JacketXia/LXMediator.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "subspecs": [
+    {
+      "name": "Router",
+      "public_header_files": "LXMediator/Classes/Router/**/*.h",
+      "source_files": "LXMediator/Classes/Router/**/*",
+      "dependencies": {
+        "CTMediator": [
+          "~> 46"
+        ]
+      }
+    },
+    {
+      "name": "Service",
+      "public_header_files": "LXMediator/Classes/Service/**/*.h",
+      "source_files": "LXMediator/Classes/Service/**/*",
+      "dependencies": {
+        "CTMediator": [
+          "~> 46"
+        ]
+      }
+    }
+  ]
+}
