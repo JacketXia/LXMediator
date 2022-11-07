@@ -17,7 +17,7 @@ LXMediator is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'LXMediator', :git => 'https://github.com/JacketXia/LXMediator.git'
+pod 'LXMediator'
 ```
 
 ## Author
