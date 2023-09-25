@@ -1,0 +1,16 @@
+PODS:
+  - LXMediator (0.0.1)
+
+DEPENDENCIES:
+  - LXMediator (from `LXMediator`)
+
+EXTERNAL SOURCES:
+  LXMediator:
+    :path: LXMediator
+
+SPEC CHECKSUMS:
+  LXMediator: 87c0a2bfd9a9b1705ed139856db029b595242717
+
+PODFILE CHECKSUM: 44e7383f3ac118a5509035cddc80a4a3eb5b7eb9
+
+COCOAPODS: 1.12.1
