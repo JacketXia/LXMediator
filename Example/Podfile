@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'LXMediator_Example' do
+  pod 'LXMediator', :path => '../'
+
+  target 'LXMediator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
