@@ -9,29 +9,76 @@
 
 @implementation LXRouter (Navigator)
 
-+ (UIViewController *)rootViewController {
-    //获取根控制器
-    UIViewController *rootVC = [[UIApplication sharedApplication].delegate window].rootViewController;
-    
-    UIViewController *parent = rootVC;
-    //遍历 如果是presentViewController
-    while ((parent = rootVC.presentedViewController) != nil ) {
-        rootVC = parent;
-    }
-    return rootVC;
+- (UIWindow *)keyWindow {
+    return [[UIApplication sharedApplication].delegate window];
 }
 
-+ (UIViewController * _Nullable)topViewController {
-    UIViewController *topViewController = [self rootViewController];
-    if ([topViewController isKindOfClass:[UITabBarController class]]) {
-        UITabBarController *tabbarController = (UITabBarController *)topViewController;
-        topViewController = tabbarController.selectedViewController;
+- (UIViewController *)topViewController {
+    UIViewController *topController = [self keyWindow].rootViewController;
+    while (topController.presentedViewController) {
+        topController = topController.presentedViewController;
     }
-    if ([topViewController isKindOfClass:[UINavigationController class]]) {
-        UINavigationController *navigationController = (UINavigationController *)topViewController;
-        topViewController = navigationController.topViewController;
+    return topController;
+}
+
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    UINavigationController *navigationController = (UINavigationController *)[self topViewController];
+    
+    if ([navigationController isKindOfClass:[UINavigationController class]] == NO) {
+        if ([navigationController isKindOfClass:[UITabBarController class]]) {
+            UITabBarController *tabbarController = (UITabBarController *)navigationController;
+            navigationController = tabbarController.selectedViewController;
+            if ([navigationController isKindOfClass:[UINavigationController class]] == NO) {
+                navigationController = tabbarController.selectedViewController.navigationController;
+            }
+        } else {
+            navigationController = navigationController.navigationController;
+        }
     }
-    return topViewController;
+    
+    if ([navigationController isKindOfClass:[UINavigationController class]]) {
+        [navigationController pushViewController:viewController animated:animated];
+    }
+}
+
+- (void)presentViewController:(UIViewController *)viewControllerToPresent animated:(BOOL)animated completion:(void (^ _Nullable)(void))completion {
+    UIViewController *viewController = [self topViewController];
+    if ([viewController isKindOfClass:[UINavigationController class]]) {
+        UINavigationController *navigationController = (UINavigationController *)viewController;
+        viewController = navigationController.topViewController;
+    }
+    
+    if ([viewController isKindOfClass:[UIAlertController class]]) {
+        UIViewController *viewControllerToUse = viewController.presentingViewController;
+        [viewController dismissViewControllerAnimated:false completion:nil];
+        viewController = viewControllerToUse;
+    }
+    
+    if (viewController) {
+        [viewController presentViewController:viewControllerToPresent animated:animated completion:completion];
+    }
+}
+
+- (void)replaceViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    UINavigationController *navigationController = (UINavigationController *)[self topViewController];
+    
+    if ([navigationController isKindOfClass:[UINavigationController class]] == NO) {
+        if ([navigationController isKindOfClass:[UITabBarController class]]) {
+            UITabBarController *tabbarController = (UITabBarController *)navigationController;
+            navigationController = tabbarController.selectedViewController;
+            if ([navigationController isKindOfClass:[UINavigationController class]] == NO) {
+                navigationController = tabbarController.selectedViewController.navigationController;
+            }
+        } else {
+            navigationController = navigationController.navigationController;
+        }
+    }
+    
+    if ([navigationController isKindOfClass:[UINavigationController class]]) {
+        NSMutableArray *controllers = [navigationController.viewControllers mutableCopy];
+        [controllers replaceObjectAtIndex:controllers.count - 1 withObject:viewController];
+        [navigationController setViewControllers:controllers animated:animated];
+    }
 }
 
 @end

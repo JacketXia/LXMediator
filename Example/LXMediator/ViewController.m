@@ -25,8 +25,10 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    UIViewController *vc = LXGetController(@"/first", @{@"name" : @"aaaaaa"});
-    [self.navigationController pushViewController:vc animated:YES];
+//    UIViewController *vc = LXGetController(@"/first", @{@"name" : @"aaaaaa"});
+//    [self.navigationController pushViewController:vc animated:YES];
+//    LXRouter.onName(@"/first",@{@"name" : @"cccccc"}).onReplace(true);
+    LXRouter.onVC([[ViewController alloc] init]).onPush(true);
 }
 
 -(void)lx_initializeParam:(NSDictionary *)param {

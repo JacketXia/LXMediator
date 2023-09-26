@@ -12,10 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LXRouter (Navigator)
 
-/**
- @brief 获取当前显示的控制器
- */
-+ (UIViewController * _Nullable)topViewController;
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated;
+
+- (void)presentViewController:(UIViewController *)viewControllerToPresent animated:(BOOL)animated completion:(void (^ _Nullable)(void))completion;
+
+- (void)replaceViewController:(UIViewController *)viewController animated:(BOOL)animated;
 
 @end
 
