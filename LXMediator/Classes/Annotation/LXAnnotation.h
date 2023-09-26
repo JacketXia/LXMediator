@@ -1,6 +1,6 @@
 //
 //  LXAnnotation.h
-//  LXLib
+//  LXMediator
 //
 //  Created by JacketXia on 2022/12/23.
 //
