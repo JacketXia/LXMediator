@@ -6,12 +6,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LXStorage.h"
 
 NS_ASSUME_NONNULL_BEGIN
-
-typedef UIViewController *_Nullable(^LXControllerRedirectHandle)(NSString * _Nonnull name,NSDictionary  *_Nullable params);
-
-typedef UIViewController *_Nonnull(^LXControllerNotFoundHandle)(NSString * _Nonnull name,NSDictionary  *_Nullable params);
 
 @interface LXControllerManager : NSObject
 

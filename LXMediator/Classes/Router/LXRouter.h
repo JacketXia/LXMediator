@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LXStorage.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -20,6 +21,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (void(^)(BOOL animated,void (^ _Nullable completion)(void)))onPresent;
 
 - (void(^)(BOOL animated))onReplace;
+
+/// @brief 跳转拦截器
+/// @param name 名字
+/// @param handle NO不跳转 YES跳转
++ (void)registerInterceptorName:(NSString * _Nonnull)name handle:(nonnull LXRouterInterceptorHandle)handle;
 
 @end
 

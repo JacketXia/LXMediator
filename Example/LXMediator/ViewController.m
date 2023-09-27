@@ -13,10 +13,6 @@
 
 @implementation ViewController
 
-//- (void)lx_loadParam:(NSDictionary *)param {
-//    NSLog(@"%@",param);
-//}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -27,8 +23,8 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
 //    UIViewController *vc = LXGetController(@"/first", @{@"name" : @"aaaaaa"});
 //    [self.navigationController pushViewController:vc animated:YES];
-//    LXRouter.onName(@"/first",@{@"name" : @"cccccc"}).onReplace(true);
-    LXRouter.onVC([[ViewController alloc] init]).onPush(true);
+    LXRouter.onName(@"/first",@{@"name" : @"cccccc"}).onReplace(true);
+//    LXRouter.onVC([[ViewController alloc] init]).onPush(true);
 }
 
 -(void)lx_initializeParam:(NSDictionary *)param {

@@ -20,6 +20,18 @@
 + (LXRouter * (^)(NSString *_Nonnull name,NSDictionary * _Nullable params))onName {
     return ^LXRouter *(NSString *_Nonnull name,NSDictionary * _Nullable params){
         LXRouter *router = [[LXRouter alloc] init];
+        
+        // 是否需要拦截
+        NSMutableDictionary<NSString *,LXRouterInterceptorHandle> *interceptorNames = [LXStorage shared].interceptorNames;
+        BOOL needInterceptor = [interceptorNames.allKeys containsObject:name];
+        if (needInterceptor) {
+            LXRouterInterceptorHandle handle = interceptorNames[name];
+            BOOL show = handle(name,params);
+            if (NO == show) {
+                return router;
+            }
+        }
+        
         router.routerVC = LXGetController(name, params);
         return router;
     };
@@ -35,20 +47,33 @@
 
 - (void(^)(BOOL animated))onPush {
     return ^(BOOL animated){
-        [self pushViewController:self.routerVC animated:animated];
+        if (self.routerVC) {
+            [self pushViewController:self.routerVC animated:animated];
+        }
     };
 }
 
 - (void(^)(BOOL animated,void (^ __nullable completion)(void)))onPresent {
     return ^(BOOL animated,void (^ __nullable completion)(void)){
-        [self presentViewController:self.routerVC animated:animated completion:completion];
+        if (self.routerVC) {
+            [self presentViewController:self.routerVC animated:animated completion:completion];
+        }
     };
 }
 
 - (void(^)(BOOL animated))onReplace {
     return ^(BOOL animated){
-        [self replaceViewController:self.routerVC animated:animated];
+        if (self.routerVC) {
+            [self replaceViewController:self.routerVC animated:animated];
+        }
     };
+}
+
++ (void)registerInterceptorName:(NSString * _Nonnull)name handle:(nonnull LXRouterInterceptorHandle)handle {
+    if (!handle) {
+        return;
+    }
+    [LXStorage shared].interceptorNames[name] = handle;
 }
 
 @end

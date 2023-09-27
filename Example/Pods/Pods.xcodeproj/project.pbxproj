@@ -7,98 +7,110 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C06D2434A0F99EC666FD9C2B2141218 /* LXServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3581D883A520B974192F67BDF59FF1D3 /* LXServiceManager.m */; };
-		19D5F2B6B0D6E28E850D5C3928270F50 /* LXMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = FAE528EB8776890B0D1F9D783E699C99 /* LXMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FA1D7B024B506D56EC908459912E10A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		232DF2583EFACF679F5277BCB77D8647 /* Pods-LXMediator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA833ED931F40EBD00FA6FF30CF8D4CB /* Pods-LXMediator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		406E70B33B4EA3493C74114150C241BC /* LXRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACD6B2ECFFA357C4A642F9BC7166523 /* LXRouter.m */; };
-		41565DC6D595A839150736133342CF45 /* LXRouter+Navigator.m in Sources */ = {isa = PBXBuildFile; fileRef = B9877DA7F4B72203BF5DB253647B0BDB /* LXRouter+Navigator.m */; };
-		4C7FA2B5AB9939C63FB816B90D175F75 /* LXControllerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 122B4053E28EC33693B5A4EC6460C259 /* LXControllerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24DF88A1B7907020254C47F84451E864 /* LXModuleMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E45C7B1D7ED6C160183402DB931BAFA /* LXModuleMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42FE77EF2D326E78BD670F7A9EEE3BAE /* LXControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1330F7214097CAADB54BC1E785CF6172 /* LXControllerManager.m */; };
+		4BB462C1A71486A0E8055047A73B229E /* LXRouter+Navigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B089ECB6B5B9AE5CDCBB40C18752096 /* LXRouter+Navigator.m */; };
 		4F358F2000ABD1BD1258E653CB4E787A /* Pods-LXMediator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC68C3D9A04E6102E0CA41135F0FC16 /* Pods-LXMediator_Tests-dummy.m */; };
-		733D599F6BFA6B1B389E1CFCBBB523D4 /* LXMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4545423FC06DEA83303FA57CF72B4D61 /* LXMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		860137893657743507FE9ED2AB05561C /* LXModuleMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF3DEDB4CE12DEF7FF12A5F7302E7A0 /* LXModuleMediator.m */; };
-		8D66C97E892F65D360B5E95B5D22C7AD /* LXControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B90AF6C24907577E88397248FEF3350 /* LXControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		500FB11DD1A894F6D278798FF148C948 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5265ADB21AA9DA6B9046EC561725798E /* LXServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE268070C33B020BFC29586CB8B862EE /* LXServiceManager.m */; };
+		53D396ACFCEB5686181FD86DE06AA0A7 /* LXControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A59C450E03B800B0CFA1BD79945A47CB /* LXControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		556DFE2F86B24DAB34CA886461A1E3CF /* LXRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C845ED5BEB0C7F0C503AFE05FE45EC8 /* LXRouter.m */; };
+		65BBEFEB9B2C42BBB58EA0046CBDCC15 /* LXStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D186350FD872BE0706547E29C59C0AE /* LXStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73799B47727CD39C4DC9DE4F3D36B477 /* LXRouter+Navigator.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA6EB850789FB0F70D3643451BFF00C /* LXRouter+Navigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E84954C0ACD74CDDF7BAED57FC674B5 /* LXRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 18758EE2E05D13E0087F1D24C5FDE793 /* LXRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D585578909ECCBC2C924006CC7C00EB /* LXStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 124F071B48C37B3F735DBAFC0042C71D /* LXStorage.m */; };
 		9268CFC804BC598065B81E58CABAB33E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9986FD47639A5E4E3C743F91A0EF7833 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9E7A9B388789EFADA69A86192270AEFC /* LXModuleMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6CCD679FE12E3D67739927113591D5 /* LXModuleMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5380D048F5BCAEF6135C389AB022B1A /* LXAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F75891807E7DCAF5EB80620A0609E6BB /* LXAnnotation.m */; };
-		AD5B304E19ECD20980E75112D5ADF8E6 /* LXControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D9992EF87529647DE5B840EE4BA74D /* LXControllerManager.m */; };
-		BC7331A1B6365B4BA843B7519CB9D9B7 /* LXRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F80EADC0DB2B15AC5790182790B48A /* LXRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A937AF66D7A2411E332C7CB1F578B63 /* LXAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = C836CDF8DFE0CD7293234DBFBAB2ECA7 /* LXAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E88F237A8ADE7A434594871CF1FDABE /* LXControllerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 07852D5570BF84A83A76C824EF358D03 /* LXControllerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8EA94A5FAF444460B3CEAF99986C212 /* LXMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9A2B77908A32475ADA3D159E3F8A9C /* LXMediator-dummy.m */; };
 		D6F123AB931DC322A6C4CA5371845670 /* Pods-LXMediator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21435A4A62EAB0865B84EFF721862F46 /* Pods-LXMediator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8DD58D4E539FCB7EF6C3DF4CA767CDE /* LXRouter+Navigator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4473B432C4F123F93B4803559DACD1 /* LXRouter+Navigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE3948BB9E45243F05867FE5E33FFFA9 /* LXAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = C424CAA3AAB88FBFAA6326B42AA0C747 /* LXAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D77927691AD47D088CFC9F29CDBBD988 /* LXModuleMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5B327CA6A386D87D820BB693824C54 /* LXModuleMediator.m */; };
+		E0486E7BD531D3715ED668EFC45B5539 /* LXMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = C31B85D46549B493D82F8986BE0C5F2A /* LXMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E121FDE3C1F97117F2CEE7A44EA4F8FC /* LXAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DF71C6AE86B295FE5CBC6D500CB2A9C3 /* LXAnnotation.m */; };
 		E61B0A0D00E28FC9EBD792AFF4505898 /* Pods-LXMediator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 474776DCC1B6C6EFF61B5F4D3FCBF0ED /* Pods-LXMediator_Example-dummy.m */; };
-		E8EC5864CA36F9C877E068D3A5A9F1D4 /* LXMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FD13F9BCB79D9044A4E5CC3F7DA741 /* LXMediator-dummy.m */; };
-		EE34D8B238B05777006C669DACA2C81F /* LXServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BC07F49411599441F27985582E689F21 /* LXServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F444FCDD9E2662C6C645891CB27AAB2A /* LXMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B33D72D9E14836C73CECD1019B29C0D /* LXMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9CD0158AD5A3DDF3F3B05C5BE38D31A /* LXServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BD4A759061724A2465512D32FA95C145 /* LXServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7F3D3979CAA5C912CA1EA1B9753F8A2B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A19EF30A947B7A81D0FE95673F9254F9;
-			remoteInfo = "Pods-LXMediator_Example";
-		};
-		B97B5B9F893654E25ADE3AEADF56D6DA /* PBXContainerItemProxy */ = {
+		310FA0D889877456FF4E7A7ADA135ECC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E9868B3A56485619EFEB1345F9B14EF9;
 			remoteInfo = LXMediator;
 		};
+		908879497C9F1757774CCC2CB166222B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A19EF30A947B7A81D0FE95673F9254F9;
+			remoteInfo = "Pods-LXMediator_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A4473B432C4F123F93B4803559DACD1 /* LXRouter+Navigator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXRouter+Navigator.h"; sourceTree = "<group>"; };
-		122B4053E28EC33693B5A4EC6460C259 /* LXControllerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXControllerManager.h; sourceTree = "<group>"; };
-		187FE9688B2E1A8008EBEAAB047B500E /* LXMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LXMediator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		07852D5570BF84A83A76C824EF358D03 /* LXControllerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXControllerManager.h; sourceTree = "<group>"; };
+		0B089ECB6B5B9AE5CDCBB40C18752096 /* LXRouter+Navigator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXRouter+Navigator.m"; sourceTree = "<group>"; };
+		0D186350FD872BE0706547E29C59C0AE /* LXStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXStorage.h; sourceTree = "<group>"; };
+		124F071B48C37B3F735DBAFC0042C71D /* LXStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXStorage.m; sourceTree = "<group>"; };
+		1330F7214097CAADB54BC1E785CF6172 /* LXControllerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXControllerManager.m; sourceTree = "<group>"; };
+		18758EE2E05D13E0087F1D24C5FDE793 /* LXRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXRouter.h; sourceTree = "<group>"; };
 		21435A4A62EAB0865B84EFF721862F46 /* Pods-LXMediator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXMediator_Example-umbrella.h"; sourceTree = "<group>"; };
 		2190E7AAB731C2F90B6E81FBCBEDD999 /* Pods-LXMediator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXMediator_Example-frameworks.sh"; sourceTree = "<group>"; };
-		296A5735E3C5D75B8694134478DE1864 /* LXMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXMediator.modulemap; sourceTree = "<group>"; };
-		2ACD6B2ECFFA357C4A642F9BC7166523 /* LXRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXRouter.m; sourceTree = "<group>"; };
-		2E333DFD4FE8B5C4F8689847EB91F823 /* LXMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LXMediator-Info.plist"; sourceTree = "<group>"; };
+		2D931D4A020E04A329F1472A75F25A85 /* LXMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LXMediator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2FA17C827318DF4BE165806E5E1CE233 /* Pods-LXMediator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXMediator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3581D883A520B974192F67BDF59FF1D3 /* LXServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXServiceManager.m; sourceTree = "<group>"; };
 		3B2667BB89602C0F561FBEF6C86D3A41 /* Pods-LXMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3C845ED5BEB0C7F0C503AFE05FE45EC8 /* LXRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXRouter.m; sourceTree = "<group>"; };
 		43BD1FFF76195A82DCA2312EC3658BAD /* Pods-LXMediator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXMediator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		453DBC2790A7F254CCD472AA04DB8077 /* Pods-LXMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4545423FC06DEA83303FA57CF72B4D61 /* LXMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXMediator-umbrella.h"; sourceTree = "<group>"; };
 		474776DCC1B6C6EFF61B5F4D3FCBF0ED /* Pods-LXMediator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXMediator_Example-dummy.m"; sourceTree = "<group>"; };
-		4B90AF6C24907577E88397248FEF3350 /* LXControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXControllerDelegate.h; sourceTree = "<group>"; };
+		4DB0139CA95F2A6960A0468EC296D496 /* LXMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXMediator-prefix.pch"; sourceTree = "<group>"; };
 		52A6F85D1EF9B5380F2A113F32A6A5BE /* Pods-LXMediator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXMediator_Example-Info.plist"; sourceTree = "<group>"; };
-		6A804A49C65016868DCAB07682D9F07F /* LXMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXMediator-prefix.pch"; sourceTree = "<group>"; };
-		6B9A59F195D8DB40D064D37AE47AFEEF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		6F67582F53C31639A7626D1CBAF7DADB /* LXMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXMediator.debug.xcconfig; sourceTree = "<group>"; };
+		6B33D72D9E14836C73CECD1019B29C0D /* LXMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXMediator-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73E4B0343EA2A30142FB5D471FA2A501 /* Pods-LXMediator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXMediator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		75D28B64D51CAB463FF114FAECF03539 /* Pods-LXMediator_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LXMediator_Example"; path = Pods_LXMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		77FD13F9BCB79D9044A4E5CC3F7DA741 /* LXMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXMediator-dummy.m"; sourceTree = "<group>"; };
-		7F3872FF9133986D40B5F403640F0278 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8178A3DC5BACB2D0FC8A8855FACF0DFE /* Pods-LXMediator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXMediator_Tests-Info.plist"; sourceTree = "<group>"; };
-		8B32583F0E9CC57A4DB2F540FC64C177 /* LXMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXMediator.release.xcconfig; sourceTree = "<group>"; };
+		8E45C7B1D7ED6C160183402DB931BAFA /* LXModuleMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXModuleMediator.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DF3DEDB4CE12DEF7FF12A5F7302E7A0 /* LXModuleMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXModuleMediator.m; sourceTree = "<group>"; };
 		9FC68C3D9A04E6102E0CA41135F0FC16 /* Pods-LXMediator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXMediator_Tests-dummy.m"; sourceTree = "<group>"; };
+		A13C2E1D6CB3CCCE02EAC8BABE741975 /* LXMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXMediator.release.xcconfig; sourceTree = "<group>"; };
+		A38B902932A7ECAE1EE1404C6795782B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A59C450E03B800B0CFA1BD79945A47CB /* LXControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXControllerDelegate.h; sourceTree = "<group>"; };
 		A939F49174753B7888BF1731489D9B9E /* LXMediator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LXMediator; path = LXMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7D9992EF87529647DE5B840EE4BA74D /* LXControllerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXControllerManager.m; sourceTree = "<group>"; };
-		B9877DA7F4B72203BF5DB253647B0BDB /* LXRouter+Navigator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXRouter+Navigator.m"; sourceTree = "<group>"; };
+		AC9A2B77908A32475ADA3D159E3F8A9C /* LXMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXMediator-dummy.m"; sourceTree = "<group>"; };
+		ADA6EB850789FB0F70D3643451BFF00C /* LXRouter+Navigator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXRouter+Navigator.h"; sourceTree = "<group>"; };
 		BA833ED931F40EBD00FA6FF30CF8D4CB /* Pods-LXMediator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXMediator_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BC07F49411599441F27985582E689F21 /* LXServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXServiceManager.h; sourceTree = "<group>"; };
 		BCA70642062C4E20412E058DAD3BC7A7 /* Pods-LXMediator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXMediator_Tests.modulemap"; sourceTree = "<group>"; };
-		C0F80EADC0DB2B15AC5790182790B48A /* LXRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXRouter.h; sourceTree = "<group>"; };
-		C424CAA3AAB88FBFAA6326B42AA0C747 /* LXAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXAnnotation.h; sourceTree = "<group>"; };
+		BCCA6EDD41DDB50261884F124003CC74 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BD4A759061724A2465512D32FA95C145 /* LXServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXServiceManager.h; sourceTree = "<group>"; };
+		C31B85D46549B493D82F8986BE0C5F2A /* LXMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LXMediator.h; path = LXMediator/Classes/LXMediator.h; sourceTree = "<group>"; };
+		C836CDF8DFE0CD7293234DBFBAB2ECA7 /* LXAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXAnnotation.h; sourceTree = "<group>"; };
 		CB5D4F9F1F83FC58BFEF74BB7E809076 /* Pods-LXMediator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXMediator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D21E09EF0D42816F459AE7C897A5B0B2 /* LXMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXMediator.modulemap; sourceTree = "<group>"; };
 		D318FA1B36C80EBB588F9B1FC26FCE9A /* Pods-LXMediator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXMediator_Example.modulemap"; sourceTree = "<group>"; };
+		D443D5C92818ACAE9FBA6076EDA661E4 /* LXMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXMediator.debug.xcconfig; sourceTree = "<group>"; };
 		D6838C08B64C21BA0ED3D824299005ED /* Pods-LXMediator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXMediator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D969B0D965F21601B1C8476525FCF8B9 /* LXMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LXMediator-Info.plist"; sourceTree = "<group>"; };
 		DAE1A34CC87F7F4D328E25A43AD4BCE4 /* Pods-LXMediator_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LXMediator_Tests"; path = Pods_LXMediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2FFECE2277BAC28BFF6E9D901E5669 /* Pods-LXMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F75891807E7DCAF5EB80620A0609E6BB /* LXAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXAnnotation.m; sourceTree = "<group>"; };
-		FAE528EB8776890B0D1F9D783E699C99 /* LXMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LXMediator.h; path = LXMediator/Classes/LXMediator.h; sourceTree = "<group>"; };
-		FD6CCD679FE12E3D67739927113591D5 /* LXModuleMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXModuleMediator.h; sourceTree = "<group>"; };
+		DF71C6AE86B295FE5CBC6D500CB2A9C3 /* LXAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXAnnotation.m; sourceTree = "<group>"; };
+		EA5B327CA6A386D87D820BB693824C54 /* LXModuleMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXModuleMediator.m; sourceTree = "<group>"; };
+		FE268070C33B020BFC29586CB8B862EE /* LXServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXServiceManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		36E8FF07BF41C97F137CD799B0B5F1A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500FB11DD1A894F6D278798FF148C948 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4BCC0E63A83FA54D24FE0FA2EF4429B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,69 +127,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA0CBDA81591F0A27C127D74BCE97991 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1FA1D7B024B506D56EC908459912E10A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		114392928548B7DF8FC160A223114748 /* Annotation */ = {
+		1E95DD35253303CD32725E9B93732CFD /* LXMediator */ = {
 			isa = PBXGroup;
 			children = (
-				C424CAA3AAB88FBFAA6326B42AA0C747 /* LXAnnotation.h */,
-				F75891807E7DCAF5EB80620A0609E6BB /* LXAnnotation.m */,
-			);
-			name = Annotation;
-			path = LXMediator/Classes/Annotation;
-			sourceTree = "<group>";
-		};
-		1337F1B5322289EEDE8244A65ECE921B /* Module */ = {
-			isa = PBXGroup;
-			children = (
-				FD6CCD679FE12E3D67739927113591D5 /* LXModuleMediator.h */,
-				9DF3DEDB4CE12DEF7FF12A5F7302E7A0 /* LXModuleMediator.m */,
-			);
-			name = Module;
-			path = LXMediator/Classes/Module;
-			sourceTree = "<group>";
-		};
-		19DEBC2111564E53FE087BDFF15C864E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7F3872FF9133986D40B5F403640F0278 /* LICENSE */,
-				187FE9688B2E1A8008EBEAAB047B500E /* LXMediator.podspec */,
-				6B9A59F195D8DB40D064D37AE47AFEEF /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		21DE60E59CFD8C0A9D974BF3E9DAE78B /* LXMediator */ = {
-			isa = PBXGroup;
-			children = (
-				FAE528EB8776890B0D1F9D783E699C99 /* LXMediator.h */,
-				114392928548B7DF8FC160A223114748 /* Annotation */,
-				890035A94FC16BEDCE0F980EF2BAC415 /* Controller */,
-				1337F1B5322289EEDE8244A65ECE921B /* Module */,
-				19DEBC2111564E53FE087BDFF15C864E /* Pod */,
-				EC03C52DC74EBDA7FD931EE50547F966 /* Router */,
-				C187342F727CEBCCE5CB9053114E4B88 /* Service */,
-				A70B7430CDE2001B0EB54D02293BCBF4 /* Support Files */,
+				C31B85D46549B493D82F8986BE0C5F2A /* LXMediator.h */,
+				8B9A0D4AA64F9C5B7E80B8E4A9D5C11D /* Annotation */,
+				8CE54E0A1AE818412F72D37390300503 /* Controller */,
+				CE901412BDC6DAB9A05D660FD8705468 /* Module */,
+				318BD0FE1C2697E5B6FF7E86FA1F057A /* Pod */,
+				B4691CC3269F1EF442066E60CA0EBA94 /* Router */,
+				4D45AF1BB6FD0685C534DAC75B196923 /* Service */,
+				915EE72E83C67109CC64E8ABCF6A66BC /* Storage */,
+				47102BF0C66917CAD5D4519C931ECEF3 /* Support Files */,
 			);
 			name = LXMediator;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		2848B8AE6F9F84659470CF367A91A247 /* Development Pods */ = {
+		318BD0FE1C2697E5B6FF7E86FA1F057A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				21DE60E59CFD8C0A9D974BF3E9DAE78B /* LXMediator */,
+				BCCA6EDD41DDB50261884F124003CC74 /* LICENSE */,
+				2D931D4A020E04A329F1472A75F25A85 /* LXMediator.podspec */,
+				A38B902932A7ECAE1EE1404C6795782B /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		4195DCEB989EDAFABB50E0600EFA4A8D /* Products */ = {
@@ -190,12 +167,45 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		47102BF0C66917CAD5D4519C931ECEF3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D21E09EF0D42816F459AE7C897A5B0B2 /* LXMediator.modulemap */,
+				AC9A2B77908A32475ADA3D159E3F8A9C /* LXMediator-dummy.m */,
+				D969B0D965F21601B1C8476525FCF8B9 /* LXMediator-Info.plist */,
+				4DB0139CA95F2A6960A0468EC296D496 /* LXMediator-prefix.pch */,
+				6B33D72D9E14836C73CECD1019B29C0D /* LXMediator-umbrella.h */,
+				D443D5C92818ACAE9FBA6076EDA661E4 /* LXMediator.debug.xcconfig */,
+				A13C2E1D6CB3CCCE02EAC8BABE741975 /* LXMediator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LXMediator";
+			sourceTree = "<group>";
+		};
+		4D45AF1BB6FD0685C534DAC75B196923 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BD4A759061724A2465512D32FA95C145 /* LXServiceManager.h */,
+				FE268070C33B020BFC29586CB8B862EE /* LXServiceManager.m */,
+			);
+			name = Service;
+			path = LXMediator/Classes/Service;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		625AA8A8EA45BDB07CF062F1027D1773 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E95DD35253303CD32725E9B93732CFD /* LXMediator */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		84CCA6D0224E1A26C3AFE7418AD5371B /* Pods-LXMediator_Tests */ = {
@@ -214,30 +224,35 @@
 			path = "Target Support Files/Pods-LXMediator_Tests";
 			sourceTree = "<group>";
 		};
-		890035A94FC16BEDCE0F980EF2BAC415 /* Controller */ = {
+		8B9A0D4AA64F9C5B7E80B8E4A9D5C11D /* Annotation */ = {
 			isa = PBXGroup;
 			children = (
-				4B90AF6C24907577E88397248FEF3350 /* LXControllerDelegate.h */,
-				122B4053E28EC33693B5A4EC6460C259 /* LXControllerManager.h */,
-				B7D9992EF87529647DE5B840EE4BA74D /* LXControllerManager.m */,
+				C836CDF8DFE0CD7293234DBFBAB2ECA7 /* LXAnnotation.h */,
+				DF71C6AE86B295FE5CBC6D500CB2A9C3 /* LXAnnotation.m */,
+			);
+			name = Annotation;
+			path = LXMediator/Classes/Annotation;
+			sourceTree = "<group>";
+		};
+		8CE54E0A1AE818412F72D37390300503 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A59C450E03B800B0CFA1BD79945A47CB /* LXControllerDelegate.h */,
+				07852D5570BF84A83A76C824EF358D03 /* LXControllerManager.h */,
+				1330F7214097CAADB54BC1E785CF6172 /* LXControllerManager.m */,
 			);
 			name = Controller;
 			path = LXMediator/Classes/Controller;
 			sourceTree = "<group>";
 		};
-		A70B7430CDE2001B0EB54D02293BCBF4 /* Support Files */ = {
+		915EE72E83C67109CC64E8ABCF6A66BC /* Storage */ = {
 			isa = PBXGroup;
 			children = (
-				296A5735E3C5D75B8694134478DE1864 /* LXMediator.modulemap */,
-				77FD13F9BCB79D9044A4E5CC3F7DA741 /* LXMediator-dummy.m */,
-				2E333DFD4FE8B5C4F8689847EB91F823 /* LXMediator-Info.plist */,
-				6A804A49C65016868DCAB07682D9F07F /* LXMediator-prefix.pch */,
-				4545423FC06DEA83303FA57CF72B4D61 /* LXMediator-umbrella.h */,
-				6F67582F53C31639A7626D1CBAF7DADB /* LXMediator.debug.xcconfig */,
-				8B32583F0E9CC57A4DB2F540FC64C177 /* LXMediator.release.xcconfig */,
+				0D186350FD872BE0706547E29C59C0AE /* LXStorage.h */,
+				124F071B48C37B3F735DBAFC0042C71D /* LXStorage.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LXMediator";
+			name = Storage;
+			path = LXMediator/Classes/Storage;
 			sourceTree = "<group>";
 		};
 		ADB3AA5D8ABFD47BDC18139166DCE56A /* Pods-LXMediator_Example */ = {
@@ -257,21 +272,33 @@
 			path = "Target Support Files/Pods-LXMediator_Example";
 			sourceTree = "<group>";
 		};
-		C187342F727CEBCCE5CB9053114E4B88 /* Service */ = {
+		B4691CC3269F1EF442066E60CA0EBA94 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				BC07F49411599441F27985582E689F21 /* LXServiceManager.h */,
-				3581D883A520B974192F67BDF59FF1D3 /* LXServiceManager.m */,
+				18758EE2E05D13E0087F1D24C5FDE793 /* LXRouter.h */,
+				3C845ED5BEB0C7F0C503AFE05FE45EC8 /* LXRouter.m */,
+				ADA6EB850789FB0F70D3643451BFF00C /* LXRouter+Navigator.h */,
+				0B089ECB6B5B9AE5CDCBB40C18752096 /* LXRouter+Navigator.m */,
 			);
-			name = Service;
-			path = LXMediator/Classes/Service;
+			name = Router;
+			path = LXMediator/Classes/Router;
+			sourceTree = "<group>";
+		};
+		CE901412BDC6DAB9A05D660FD8705468 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				8E45C7B1D7ED6C160183402DB931BAFA /* LXModuleMediator.h */,
+				EA5B327CA6A386D87D820BB693824C54 /* LXModuleMediator.m */,
+			);
+			name = Module;
+			path = LXMediator/Classes/Module;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2848B8AE6F9F84659470CF367A91A247 /* Development Pods */,
+				625AA8A8EA45BDB07CF062F1027D1773 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				4195DCEB989EDAFABB50E0600EFA4A8D /* Products */,
 				F945F6B7440D6C43D0A9A70B682637FD /* Targets Support Files */,
@@ -284,18 +311,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EC03C52DC74EBDA7FD931EE50547F966 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				C0F80EADC0DB2B15AC5790182790B48A /* LXRouter.h */,
-				2ACD6B2ECFFA357C4A642F9BC7166523 /* LXRouter.m */,
-				0A4473B432C4F123F93B4803559DACD1 /* LXRouter+Navigator.h */,
-				B9877DA7F4B72203BF5DB253647B0BDB /* LXRouter+Navigator.m */,
-			);
-			name = Router;
-			path = LXMediator/Classes/Router;
 			sourceTree = "<group>";
 		};
 		F945F6B7440D6C43D0A9A70B682637FD /* Targets Support Files */ = {
@@ -318,27 +333,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FA23EF510BB3B824F79CD8C16E15B81 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE3948BB9E45243F05867FE5E33FFFA9 /* LXAnnotation.h in Headers */,
-				8D66C97E892F65D360B5E95B5D22C7AD /* LXControllerDelegate.h in Headers */,
-				4C7FA2B5AB9939C63FB816B90D175F75 /* LXControllerManager.h in Headers */,
-				19D5F2B6B0D6E28E850D5C3928270F50 /* LXMediator.h in Headers */,
-				733D599F6BFA6B1B389E1CFCBBB523D4 /* LXMediator-umbrella.h in Headers */,
-				9E7A9B388789EFADA69A86192270AEFC /* LXModuleMediator.h in Headers */,
-				BC7331A1B6365B4BA843B7519CB9D9B7 /* LXRouter.h in Headers */,
-				D8DD58D4E539FCB7EF6C3DF4CA767CDE /* LXRouter+Navigator.h in Headers */,
-				EE34D8B238B05777006C669DACA2C81F /* LXServiceManager.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		36F537C44F2A8E314460479B18B33FEE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D6F123AB931DC322A6C4CA5371845670 /* Pods-LXMediator_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80911D09DEEC06C611B8E0C067A5D469 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A937AF66D7A2411E332C7CB1F578B63 /* LXAnnotation.h in Headers */,
+				53D396ACFCEB5686181FD86DE06AA0A7 /* LXControllerDelegate.h in Headers */,
+				9E88F237A8ADE7A434594871CF1FDABE /* LXControllerManager.h in Headers */,
+				E0486E7BD531D3715ED668EFC45B5539 /* LXMediator.h in Headers */,
+				F444FCDD9E2662C6C645891CB27AAB2A /* LXMediator-umbrella.h in Headers */,
+				24DF88A1B7907020254C47F84451E864 /* LXModuleMediator.h in Headers */,
+				7E84954C0ACD74CDDF7BAED57FC674B5 /* LXRouter.h in Headers */,
+				73799B47727CD39C4DC9DE4F3D36B477 /* LXRouter+Navigator.h in Headers */,
+				F9CD0158AD5A3DDF3F3B05C5BE38D31A /* LXServiceManager.h in Headers */,
+				65BBEFEB9B2C42BBB58EA0046CBDCC15 /* LXStorage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +373,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4A8ED7B10918AC61F856D3BF0648BA5E /* PBXTargetDependency */,
+				73CB28B62F3878B778400060E9AAD999 /* PBXTargetDependency */,
 			);
 			name = "Pods-LXMediator_Example";
 			productName = Pods_LXMediator_Example;
@@ -366,12 +382,12 @@
 		};
 		E9868B3A56485619EFEB1345F9B14EF9 /* LXMediator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36E881DE57D0DE962B95C2D95ED40034 /* Build configuration list for PBXNativeTarget "LXMediator" */;
+			buildConfigurationList = 11FE205D2BFCC028B88D7590EF5D82C6 /* Build configuration list for PBXNativeTarget "LXMediator" */;
 			buildPhases = (
-				2FA23EF510BB3B824F79CD8C16E15B81 /* Headers */,
-				0DAFF4DF842AF38A7BF6BAEC4924D665 /* Sources */,
-				FA0CBDA81591F0A27C127D74BCE97991 /* Frameworks */,
-				7062D1C0E6D6DD812B5453218CF053AD /* Resources */,
+				80911D09DEEC06C611B8E0C067A5D469 /* Headers */,
+				4A1CBB3A006E607BA5091B9C9BB48082 /* Sources */,
+				36E8FF07BF41C97F137CD799B0B5F1A5 /* Frameworks */,
+				ED1ECEB6137794BD68B4AD407FCA39CA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -394,7 +410,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				19CD1A71C3F328046CDB6826A40DE8EA /* PBXTargetDependency */,
+				53CE2A7911A866F573464199AD5143FC /* PBXTargetDependency */,
 			);
 			name = "Pods-LXMediator_Tests";
 			productName = Pods_LXMediator_Tests;
@@ -438,14 +454,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7062D1C0E6D6DD812B5453218CF053AD /* Resources */ = {
+		C4AE0E8C179B20DAA60511BC2D8A9E10 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4AE0E8C179B20DAA60511BC2D8A9E10 /* Resources */ = {
+		ED1ECEB6137794BD68B4AD407FCA39CA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -455,17 +471,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0DAFF4DF842AF38A7BF6BAEC4924D665 /* Sources */ = {
+		4A1CBB3A006E607BA5091B9C9BB48082 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5380D048F5BCAEF6135C389AB022B1A /* LXAnnotation.m in Sources */,
-				AD5B304E19ECD20980E75112D5ADF8E6 /* LXControllerManager.m in Sources */,
-				E8EC5864CA36F9C877E068D3A5A9F1D4 /* LXMediator-dummy.m in Sources */,
-				860137893657743507FE9ED2AB05561C /* LXModuleMediator.m in Sources */,
-				406E70B33B4EA3493C74114150C241BC /* LXRouter.m in Sources */,
-				41565DC6D595A839150736133342CF45 /* LXRouter+Navigator.m in Sources */,
-				0C06D2434A0F99EC666FD9C2B2141218 /* LXServiceManager.m in Sources */,
+				E121FDE3C1F97117F2CEE7A44EA4F8FC /* LXAnnotation.m in Sources */,
+				42FE77EF2D326E78BD670F7A9EEE3BAE /* LXControllerManager.m in Sources */,
+				B8EA94A5FAF444460B3CEAF99986C212 /* LXMediator-dummy.m in Sources */,
+				D77927691AD47D088CFC9F29CDBBD988 /* LXModuleMediator.m in Sources */,
+				556DFE2F86B24DAB34CA886461A1E3CF /* LXRouter.m in Sources */,
+				4BB462C1A71486A0E8055047A73B229E /* LXRouter+Navigator.m in Sources */,
+				5265ADB21AA9DA6B9046EC561725798E /* LXServiceManager.m in Sources */,
+				8D585578909ECCBC2C924006CC7C00EB /* LXStorage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,21 +505,53 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		19CD1A71C3F328046CDB6826A40DE8EA /* PBXTargetDependency */ = {
+		53CE2A7911A866F573464199AD5143FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LXMediator_Example";
 			target = A19EF30A947B7A81D0FE95673F9254F9 /* Pods-LXMediator_Example */;
-			targetProxy = 7F3D3979CAA5C912CA1EA1B9753F8A2B /* PBXContainerItemProxy */;
+			targetProxy = 908879497C9F1757774CCC2CB166222B /* PBXContainerItemProxy */;
 		};
-		4A8ED7B10918AC61F856D3BF0648BA5E /* PBXTargetDependency */ = {
+		73CB28B62F3878B778400060E9AAD999 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LXMediator;
 			target = E9868B3A56485619EFEB1345F9B14EF9 /* LXMediator */;
-			targetProxy = B97B5B9F893654E25ADE3AEADF56D6DA /* PBXContainerItemProxy */;
+			targetProxy = 310FA0D889877456FF4E7A7ADA135ECC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1734F67939FC3734B270320890349F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A13C2E1D6CB3CCCE02EAC8BABE741975 /* LXMediator.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LXMediator/LXMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXMediator/LXMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LXMediator/LXMediator.modulemap";
+				PRODUCT_MODULE_NAME = LXMediator;
+				PRODUCT_NAME = LXMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		1EE6B0FD0B8BD8954945E02B6E8AC7AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 453DBC2790A7F254CCD472AA04DB8077 /* Pods-LXMediator_Tests.debug.xcconfig */;
@@ -535,38 +584,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		2F8F38AFCAB956D21C62971A1CB75C2D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B32583F0E9CC57A4DB2F540FC64C177 /* LXMediator.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LXMediator/LXMediator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LXMediator/LXMediator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LXMediator/LXMediator.modulemap";
-				PRODUCT_MODULE_NAME = LXMediator;
-				PRODUCT_NAME = LXMediator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -663,6 +680,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		9FCFDB1B2BB285B34C5E540E63EC8411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D443D5C92818ACAE9FBA6076EDA661E4 /* LXMediator.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LXMediator/LXMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXMediator/LXMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LXMediator/LXMediator.modulemap";
+				PRODUCT_MODULE_NAME = LXMediator;
+				PRODUCT_NAME = LXMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		BC6E9D1E8DA45D2E669118BF844A7721 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -764,37 +812,6 @@
 			};
 			name = Debug;
 		};
-		EAF366923B2A365B9E36C49AFBCF4CEF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F67582F53C31639A7626D1CBAF7DADB /* LXMediator.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LXMediator/LXMediator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LXMediator/LXMediator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LXMediator/LXMediator.modulemap";
-				PRODUCT_MODULE_NAME = LXMediator;
-				PRODUCT_NAME = LXMediator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		F1A414656511DA441AEB61FD8A9136D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2FA17C827318DF4BE165806E5E1CE233 /* Pods-LXMediator_Example.debug.xcconfig */;
@@ -831,11 +848,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		36E881DE57D0DE962B95C2D95ED40034 /* Build configuration list for PBXNativeTarget "LXMediator" */ = {
+		11FE205D2BFCC028B88D7590EF5D82C6 /* Build configuration list for PBXNativeTarget "LXMediator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EAF366923B2A365B9E36C49AFBCF4CEF /* Debug */,
-				2F8F38AFCAB956D21C62971A1CB75C2D /* Release */,
+				9FCFDB1B2BB285B34C5E540E63EC8411 /* Debug */,
+				1734F67939FC3734B270320890349F93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

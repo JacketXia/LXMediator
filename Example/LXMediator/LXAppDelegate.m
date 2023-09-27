@@ -7,12 +7,18 @@
 //
 
 #import "LXAppDelegate.h"
+#import <LXMediator/LXMediator.h>
 
 @implementation LXAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [LXRouter registerInterceptorName:@"/first" handle:^BOOL(NSString * _Nonnull name, NSDictionary * _Nullable params) {
+        return YES;
+    }];
+    
     return YES;
 }
 

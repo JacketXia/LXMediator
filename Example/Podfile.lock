@@ -1,5 +1,5 @@
 PODS:
-  - LXMediator (1.0.0)
+  - LXMediator (1.2.0)
 
 DEPENDENCIES:
   - LXMediator (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LXMediator: e612ea68ca57edbde0ddf1b425f7008eb8588fb2
+  LXMediator: a70460cd9e8482691d0ae4f7d86a72e0e6cbdd48
 
 PODFILE CHECKSUM: 38628cb5652277fdc7d421155554fd809db9b391
 

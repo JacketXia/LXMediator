@@ -18,6 +18,7 @@
 #import "LXRouter+Navigator.h"
 #import "LXRouter.h"
 #import "LXServiceManager.h"
+#import "LXStorage.h"
 
 FOUNDATION_EXPORT double LXMediatorVersionNumber;
 FOUNDATION_EXPORT const unsigned char LXMediatorVersionString[];
