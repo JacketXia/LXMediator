@@ -27,6 +27,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param handle NO不跳转 YES跳转
 + (void)registerInterceptorName:(NSString * _Nonnull)name handle:(nonnull LXRouterInterceptorHandle)handle;
 
+/// @brief 注册window
+/// @param keyWindow 最上层控制器，多windowscene使用
++ (void)registerVisibleWindow:(UIWindow * _Nonnull)keyWindow;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

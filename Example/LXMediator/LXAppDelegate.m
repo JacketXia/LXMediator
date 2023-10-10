@@ -14,6 +14,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [LXRouter registerVisibleWindow:_window];
     
     [LXRouter registerInterceptorName:@"/first" handle:^BOOL(NSString * _Nonnull name, NSDictionary * _Nullable params) {
         return YES;

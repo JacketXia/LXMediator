@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7BE81F05-69DE-4720-B2F0-5A1DE57574EE"
+            uuid = "F4CDAE39-FE89-4C0A-9224-3855AF5F4172"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../LXMediator/Classes/Router/LXRouter.m"
+            filePath = "../LXMediator/Classes/Router/LXRouter+Navigator.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "+onName"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "-keyWindow"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

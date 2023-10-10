@@ -27,7 +27,7 @@
 //    LXRouter.onVC([[ViewController alloc] init]).onPush(true);
 }
 
--(void)lx_initializeParam:(NSDictionary *)param {
+-(void)lx_initializeParams:(NSDictionary *)param {
     NSLog(@"home %@",param);
 }
 

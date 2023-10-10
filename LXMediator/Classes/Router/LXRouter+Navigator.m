@@ -10,6 +10,9 @@
 @implementation LXRouter (Navigator)
 
 - (UIWindow *)keyWindow {
+    if ([LXStorage shared].keyWindow) {
+        return [LXStorage shared].keyWindow;
+    }
     return [[UIApplication sharedApplication].delegate window];
 }
 

@@ -9,15 +9,7 @@
 #import "LXModuleMediator.h"
 #import "LXControllerDelegate.h"
 
-@interface LXControllerManager ()
-
-
-
-@end
-
 @implementation LXControllerManager
-
-
 
 + (void)registerRedirectName:(NSString * _Nonnull)name handle:(nonnull LXControllerRedirectHandle)handle {
     if (!handle) {
@@ -61,13 +53,13 @@
     
     /// 设置参数
     if([controller conformsToProtocol:@protocol(LXControllerDelegate)]){
-        if (params && [controller respondsToSelector:@selector(lx_initializeParam:)]) {
-            [controller performSelector:@selector(lx_initializeParam:) withObject:params];
+        if (params && [controller respondsToSelector:@selector(lx_initializeParams:)]) {
+            [controller performSelector:@selector(lx_initializeParams:) withObject:params];
         }
     }else {
         /// 未遵从协议也可以使用，可能会删除
-        if (params && [controller respondsToSelector:@selector(lx_initializeParam:)]) {
-            [controller performSelector:@selector(lx_initializeParam:) withObject:params];
+        if (params && [controller respondsToSelector:@selector(lx_initializeParams:)]) {
+            [controller performSelector:@selector(lx_initializeParams:) withObject:params];
         }
     }
     return controller;

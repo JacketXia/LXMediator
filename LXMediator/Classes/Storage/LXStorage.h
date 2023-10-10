@@ -28,6 +28,9 @@ typedef BOOL (^LXRouterInterceptorHandle)(NSString * _Nonnull name,NSDictionary 
 /// 拦截路由响应
 @property (nonatomic, strong) NSMutableDictionary<NSString *,LXRouterInterceptorHandle> *interceptorNames;
 
+/// 注册window
+@property (nonatomic, strong) UIWindow *keyWindow;
+
 @end
 
 NS_ASSUME_NONNULL_END

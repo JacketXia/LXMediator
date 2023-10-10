@@ -76,4 +76,8 @@
     [LXStorage shared].interceptorNames[name] = handle;
 }
 
++ (void)registerVisibleWindow:(UIWindow * _Nonnull)keyWindow {
+    [LXStorage shared].keyWindow = keyWindow;
+}
+
 @end

@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @optional
 /// 实现这个方法可获取参数
-- (void)lx_initializeParam:(nullable NSDictionary *)param;
+- (void)lx_initializeParams:(nullable NSDictionary *)param;
 
 @end
 

@@ -19,7 +19,7 @@
     self.view.backgroundColor = UIColor.greenColor;
 }
 
-- (void)lx_initializeParam:(NSDictionary *)param {
+- (void)lx_initializeParams:(NSDictionary *)param {
     NSLog(@"first %@",param);
 }
 
