@@ -56,6 +56,7 @@
 - (void(^)(BOOL animated,void (^ __nullable completion)(void)))onPresent {
     return ^(BOOL animated,void (^ __nullable completion)(void)){
         if (self.routerVC) {
+            self.routerVC.modalPresentationStyle = UIModalPresentationFullScreen;
             [self presentViewController:self.routerVC animated:animated completion:completion];
         }
     };
