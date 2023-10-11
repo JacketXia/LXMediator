@@ -22,7 +22,7 @@ pod 'LXMediator'
 
 ## Author
 
-xiawenbin, xiawenbin@5eplay.com
+xiawenbin, xiaxiaxiawb@163.com
 
 ## License
 
